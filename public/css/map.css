@@ -1,0 +1,32 @@
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  position: relative;
+}
+
+#loading {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  height: 80px;
+  margin: -56px 0 0 -116px;
+  padding: 16px;
+  position: absolute;
+    left: 50%;
+    top: 50%;
+  width: 200px;
+  z-index: 10000;
+}
+
+#map {
+  height:100%;
+  position:absolute;
+  width:100%;
+}

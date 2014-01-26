@@ -1,0 +1,1 @@
+web: bundle exec ruby sentimentMan.rb -p $PORT
